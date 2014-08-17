@@ -105,12 +105,12 @@ body {
   }
 
 .notice {
-  font-size: 80px;
+  font-size: 36px;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: #ed8ac0;
-  border: 20px solid;
-  width: 60%;
+  border: 10px solid;
+  width: 100%;
   padding-top: 60px;
   margin: auto;
   position: absolute;
@@ -119,4 +119,29 @@ body {
   right: 0;
   bottom: 0;
   z-index: 100;
+}
+
+@media only screen and (min-width : 480px) {
+  .notice {
+    width: 90%;
+    font-size: 48px;
+    border-width: 15px;
+  }
+}
+
+@media only screen  and (min-width : 600px) {
+  .notice {
+    width: 80%;
+    font-size: 80px;
+    border-width: 20px;
+    padding-top: 130px;
+  }
+}
+@media only screen  and (min-width : 1024px) {
+  .notice {
+    width: 80%;
+    font-size: 80px;
+    border-width: 20px;
+    padding-top: 200px;
+  }
 }
