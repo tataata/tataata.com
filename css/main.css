@@ -103,12 +103,19 @@ body {
     min-width: 50%;
     min-height: 50%;
   }
-
+.notice,
+a {
+  color: #ed8ac0;
+}
+  a:hover,
+  a:visited {
+    color: #e062a6;
+  }
 .notice {
   font-size: 36px;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  color: #ed8ac0;
+  
   border: 10px solid;
   width: 100%;
   padding-top: 60px;
@@ -120,6 +127,20 @@ body {
   bottom: 0;
   z-index: 100;
 }
+
+.social {
+  margin-top: 1em;
+  list-style: none;
+}
+  .social li {
+    font-size: 0.4em;
+    display: block;
+    margin-bottom: 0.75em;
+  }
+  .social a {
+    text-decoration: none;
+    border-bottom: 0.15em solid;
+  }
 
 @media only screen and (min-width : 480px) {
   .notice {
