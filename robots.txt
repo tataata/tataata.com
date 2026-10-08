@@ -1,0 +1,54 @@
+
+# =====================================
+# ALLOW SEARCH
+# =====================================
+
+User-agent: Googlebot
+User-agent: bingbot
+User-agent: OAI-SearchBot
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+User-agent: Amzn-SearchBot
+User-agent: Bravebot
+User-agent: Applebot
+User-agent: MistralAI-Index
+User-agent: meta-webindexer
+Allow: /
+
+# =====================================
+# ALLOW USER-INITIATED AI FETCHES
+# =====================================
+
+User-agent: ChatGPT-User
+User-agent: Claude-User
+User-agent: Perplexity-User
+User-agent: Amzn-User
+User-agent: MistralAI-User
+User-agent: Google-Agent
+Allow: /
+
+# =====================================
+# BLOCK TRAINING AND DATA COLLECTION
+# =====================================
+
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: MistralAI-Training
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: AI2Bot
+User-agent: Ai2Bot-Dolma
+User-agent: meta-externalagent
+User-agent: Amazonbot
+User-agent: KimiBot
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+# =====================================
+# DEFAULT: ALLOW
+# =====================================
+
+User-agent: *
+Allow: /
